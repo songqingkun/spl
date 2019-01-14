@@ -25,6 +25,7 @@ class Test
         print_r($splStream->getContents());
         $splStream->truncate();
         print_r('-------------------------------------');
+        print_r('+++++++++++++++++++++++++++++++++++++');
         print_r($splStream->getContents());
     }
 
